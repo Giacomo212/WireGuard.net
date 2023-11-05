@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wireguard.net.Frontend", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wireguard.net.ConfigAPI", "Wireguard.net.ConfigAPI\Wireguard.net.ConfigAPI.csproj", "{F443C655-E045-405E-8B22-F6A2B5D8AB26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wireguard.net.ConfigAPI.Common", "Wireguard.net.ConfigAPI.Common\Wireguard.net.ConfigAPI.Common.csproj", "{78321EF4-824E-4654-9531-05B028272EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wireguard.net.ConfigAPI.DataAccess", "Wireguard.net.ConfigAPI.DataAccess\Wireguard.net.ConfigAPI.DataAccess.csproj", "{A3DEFF79-DD33-4CD4-9E57-972E0FC90A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WireGuard.net.ConfigAPI.SystemHandles", "WireGuard.net.ConfigAPI.SystemHandles\WireGuard.net.ConfigAPI.SystemHandles.csproj", "{37605910-C57D-45FC-A814-EDFA6C2A51BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{F443C655-E045-405E-8B22-F6A2B5D8AB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F443C655-E045-405E-8B22-F6A2B5D8AB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F443C655-E045-405E-8B22-F6A2B5D8AB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78321EF4-824E-4654-9531-05B028272EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78321EF4-824E-4654-9531-05B028272EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78321EF4-824E-4654-9531-05B028272EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78321EF4-824E-4654-9531-05B028272EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DEFF79-DD33-4CD4-9E57-972E0FC90A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DEFF79-DD33-4CD4-9E57-972E0FC90A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DEFF79-DD33-4CD4-9E57-972E0FC90A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DEFF79-DD33-4CD4-9E57-972E0FC90A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37605910-C57D-45FC-A814-EDFA6C2A51BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37605910-C57D-45FC-A814-EDFA6C2A51BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37605910-C57D-45FC-A814-EDFA6C2A51BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37605910-C57D-45FC-A814-EDFA6C2A51BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
