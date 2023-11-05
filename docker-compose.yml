@@ -1,0 +1,6 @@
+﻿services:
+  wireguard.net.configapi:
+    image: wireguard.net.configapi
+    build:
+      context: .
+      dockerfile: Wireguard.net.ConfigAPI/Dockerfile
